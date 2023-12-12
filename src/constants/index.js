@@ -11,18 +11,18 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  tmg,
+  nbe,
+  codebase,
+  siware,
+  forum,
+  circles,
+  weatherNow,
+  laravel,
+  php,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Passionate Pen Tester",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Graphic Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Video Editor",
     icon: creator,
   },
 ];
@@ -69,6 +69,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "php",
+    icon: php,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -76,6 +80,7 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -93,9 +98,10 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Laravel",
+    icon: laravel,
   },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -105,10 +111,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,55 +118,61 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend Developer",
+    company_name: "Codebase",
+    icon: codebase,
+    iconBg: "#ed4e4b",
+    date: "Oct 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using Laravel and other related technologies.",
+      "Developing APIs for other frontend Applications.",
+      "Designing and Developing Databases Using MYSQL.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Smart Cities Engineer",
+    company_name: "Talaat Mostafa Group (TMG)",
+    icon: tmg,
+    iconBg: "#00355f",
+    date: "September 2023 - Oct 2023",
+    points: [
+      "Gained expertise in fiber networks, AI face recognition, and networking for optimal urban infrastructure.",
+      "Administrated the network of smart cameras of Madinaty using GIS Applications and various vendors like huawei.",
+      "Hands on training in developing and maintaining the fiber network .",
+    ],
+  },
+  {
+    title: "Full Developer",
+    company_name: "Si-Ware Systems (SWS)",
+    icon: siware,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Frontend Applications using React.",
+      "Developed Backend Applications using ExpressJS and PostgreSQl.",
+      "Implemented admin dashboard which is AI powered by a ChatGPT offline model that can present data dynamically depending on user's query.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Developer",
+    company_name: "Codebase",
+    icon: codebase,
+    iconBg: "#ed4e4b",
+    date: "Mar 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented a web application using JQUERY that helps people with diabetes to decide wether they can fast during ramadan or not.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Cyber Security Engineer",
+    company_name: "National Bank of Egypt (NBE)",
+    icon: nbe,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated expertise in enhancing digital security through comprehensive understanding of endpoint security measures and encryption techniques.",
+      "Hands-on experience in virtualization technologies and Security Operations Center (SOC) analysis. .",
+      "Gained valuable insights during a visit to the NBE data center, enhancing practical understanding of data center operations and security protocols.",
     ],
   },
 ];
@@ -198,67 +206,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Forum",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to share their ideas and thoughts through creating threads and reply to each other.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Laravel",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Vue",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Bootstrap",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: forum,
+    source_code_link: "https://github.com/Salah-Wahsh/Forum",
   },
   {
-    name: "Job IT",
+    name: "Ramadan Test",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that helps the user with diabetes to decide weather they can fast during ramadan or not.",
     tags: [
       {
-        name: "react",
+        name: "JQUERY",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: circles,
+    source_code_link: "https://github.com/Salah-Wahsh/CirclesWizard",
   },
   {
-    name: "Trip Guide",
+    name: "Weather Now",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A weather forecasting website that allows user's to search for the weather details in any city. with API from weather.org API. ",
     tags: [
       {
-        name: "nextjs",
+        name: "JQUERY",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "REST API",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weatherNow,
+    source_code_link: "https://github.com/Salah-Wahsh/WeatherNow",
   },
 ];
 

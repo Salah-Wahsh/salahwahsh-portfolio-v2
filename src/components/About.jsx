@@ -38,13 +38,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a highly motivated and accomplished Computer Science graduate from
-        the Arab Academy for Science, Technology & Maritime Transport,
-        graduating with an excellent grade and holding a Bachelor's degree with
-        honors, achieving a commendable GPA of 𝟑.𝟕𝟓. My academic journey has
-        equipped me with a robust foundation in programming languages such as
-        C++, Python, Java, PHP, and R, complemented by in-depth coursework in
-        Object-Oriented Programming, algorithms, and network protocols.
+        <strong>Highly accomplished</strong>
+        Computer Science graduate with honors from the Arab Academy, excelling
+        in diverse languages and programming paradigms. Completed Google IT
+        Support and Cisco CyberOps programs, mastering Linux, Windows
+        administration, and cybersecurity. Proven expertise in innovative
+        project development, crafting impactful solutions like a
+        diabetes-focused website. <br />
+        <strong>Eager</strong> to bring my passion for positive technological
+        change and relentless pursuit of excellence to a dynamic team. Ready to
+        drive transformative advancements in any technology-driven role with a
+        robust foundation, hands-on experience, and a commitment to continuous
+        learning. A versatile professional primed to excel in the ever-evolving
+        landscape of computer science and innovation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
