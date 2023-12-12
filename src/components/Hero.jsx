@@ -3,8 +3,16 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const sectionStyle = {
+    position: "relative",
+    width: "100%",
+    height: "100vh",
+    backgroundImage: "url('./src/assets/herobg.png')",
+    backgroundSize: "cover",
+    margin: "0 auto",
+  };
   return (
-    <section className="relative w-full h-screen bg-[url('./src/assets/herobg.png')] bg-cover mx-auto ">
+    <section style={sectionStyle}>
       Hero
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
