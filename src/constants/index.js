@@ -142,7 +142,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Developer",
+    title: "Full Stack Developer",
     company_name: "Si-Ware Systems (SWS)",
     icon: siware,
     iconBg: "#E6DEDD",
