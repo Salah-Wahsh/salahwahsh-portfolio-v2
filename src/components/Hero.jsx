@@ -27,7 +27,7 @@ const Hero = () => {
       {isMobileView ? (
         <img
           src={mobileImage}
-          className="absolute bottom-0  w-[100%] h-[100%] object-contain"
+          className="absolute bottom-0  w-[100%] h-[100%] object-contain mb-[-15%]"
         />
       ) : (
         <ComputersCanvas />
