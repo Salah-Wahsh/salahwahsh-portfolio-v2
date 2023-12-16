@@ -4,8 +4,12 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = (props) => {
+  const isMobileView = window.innerWidth <= 768;
+  const starsNumber = isMobileView ? 900 : 5001;
   const ref = useRef();
-  const sphere = random.inSphere(new Float32Array(4000), { radius: 1.2 });
+  const sphere = random.inSphere(new Float32Array(starsNumber), {
+    radius: 1.2,
+  });
 
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
