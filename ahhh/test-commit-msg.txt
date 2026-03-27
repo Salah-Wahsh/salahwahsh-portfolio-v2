@@ -1,0 +1,4 @@
+[CHORE-123] chore(release): Update changelog & version to v1.0.0
+
+
+This release includes performance fixes.
